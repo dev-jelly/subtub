@@ -25,10 +25,10 @@ export function LoadModel(props: LoadModelProps) {
     >
       <div
         className={
-          "h-12 w-12 flex justify-center items-center rounded-full bg-gray-300 animate-spin"
+          "h-12 w-12 flex justify-center items-center rounded-full border-4 border-gray-300 border-l-0  animate-spin"
         }
       >
-        <div className={"h-8 w-8 rounded-full bg-white bg-opacity-0"}></div>
+
       </div>
     </div>
   );
